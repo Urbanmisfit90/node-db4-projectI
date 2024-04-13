@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "node index.js",
-    "server": "nodeman index.js",
+    "server": "nodemon index.js",
     "migrate": "knex migrate:latetst",
     "rollback": "knex migrate:rollback",
     "reset": "npm run rollback && npm run migrate && npm run seed",
